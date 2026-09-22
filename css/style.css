@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -12,7 +11,7 @@ body {
 
 header {
     background-color: #071522;
-    padding: 18px 8%;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,17 +26,15 @@ header {
 nav a {
     color: white;
     background-color: #17344b;
-    padding: 9px 13px;
+    padding: 10px;
     margin-left: 5px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 6px;
 }
 
-nav a:hover,
-footer a:hover {
-    color: #071522;
+nav a:hover {
     background-color: #39d0ff;
+    color: #071522;
 }
 
 main {
@@ -48,12 +45,12 @@ main {
 .hero {
     background-color: #102b40;
     color: white;
-    padding: 55px 7%;
+    padding: 40px;
 }
 
 .hero h1 {
-    font-size: 42px;
-    margin-bottom: 12px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .hero h1 span {
@@ -65,120 +62,92 @@ main {
 }
 
 .botao {
-    display: inline-block;
     color: #071522;
     background-color: #39d0ff;
-    padding: 11px 16px;
-    margin-right: 8px;
+    padding: 10px;
+    margin-right: 5px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 6px;
 }
 
 .botao:hover {
-    color: white;
     background-color: #176f8a;
+    color: white;
 }
 
-.destaque,
-.secao {
-    padding: 45px 0;
+.destaque {
+    padding: 40px 0;
 }
 
 .destaque-conteudo {
     display: flex;
     align-items: center;
-    gap: 30px;
 }
 
 .destaque img {
     width: 55%;
-    height: 330px;
+    height: 300px;
     object-fit: cover;
-    border-radius: 14px;
+    border-radius: 10px;
 }
 
 .destaque-texto {
-    flex: 1;
+    padding: 20px;
 }
 
-h2,
-.card h3 {
+h2 {
     color: #0d4670;
+    margin-bottom: 15px;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
 .card {
     background-color: white;
-    width: 31%;
-    padding: 14px;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
 }
 
 .card img {
     width: 100%;
     height: 180px;
     object-fit: cover;
-    border-radius: 9px;
+    border-radius: 8px;
 }
 
 .card h3 {
-    margin: 10px 0 6px;
+    color: #0d4670;
+    margin: 10px 0;
 }
 
 .info {
     background-color: #dcecf5;
-    padding: 25px;
-    border-left: 5px solid #39d0ff;
-    margin-top: 25px;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 footer {
     background-color: #071522;
     color: white;
-    padding: 22px 8%;
-    margin-top: 35px;
+    padding: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
 }
 
 footer a {
     color: #39d0ff;
     background-color: #17344b;
-    padding: 7px 10px;
-    margin-left: 8px;
+    padding: 8px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
 }
 
-@media (max-width: 800px) {
-    header {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav a {
-        margin: 3px;
-    }
-
-    .hero h1 {
-        font-size: 32px;
-    }
-
-    .destaque-conteudo {
-        flex-direction: column;
-    }
-
-    .destaque img {
-        width: 100%;
-    }
-
-    .card {
-        width: 100%;
-    }
+footer a:hover {
+    background-color: #39d0ff;
+    color: #071522;
 }
