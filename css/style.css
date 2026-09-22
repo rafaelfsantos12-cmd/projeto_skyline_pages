@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Arial, sans-serif;
 
@@ -14,7 +13,6 @@ body {
 
     line-height: 1.5;
 }
-
 
 header {
     background-color: #071522;
@@ -28,7 +26,6 @@ header {
     align-items: center;
 }
 
-
 .logo {
     color: #39d0ff;
 
@@ -36,7 +33,6 @@ header {
 
     font-weight: bold;
 }
-
 
 nav a {
     color: white;
@@ -56,20 +52,17 @@ nav a {
     display: inline-block;
 }
 
-
 nav a:hover {
     color: #071522;
 
     background-color: #39d0ff;
 }
 
-
 main {
     width: 84%;
 
     margin: auto;
 }
-
 
 .hero {
     background-color: #102b40;
@@ -79,25 +72,21 @@ main {
     padding: 55px 7%;
 }
 
-
 .hero h1 {
     font-size: 42px;
 
     margin-bottom: 12px;
 }
 
-
 .hero h1 span {
     color: #39d0ff;
 }
-
 
 .hero p {
     max-width: 720px;
 
     margin-bottom: 22px;
 }
-
 
 .botao {
     color: #071522;
@@ -117,18 +106,15 @@ main {
     margin-right: 8px;
 }
 
-
 .botao:hover {
     color: white;
 
     background-color: #176f8a;
 }
 
-
 .destaque {
     padding: 45px 0;
 }
-
 
 .destaque-conteudo {
     display: flex;
@@ -137,7 +123,6 @@ main {
 
     gap: 35px;
 }
-
 
 .destaque img {
     width: 55%;
@@ -149,11 +134,9 @@ main {
     border-radius: 14px;
 }
 
-
 .destaque-texto {
     flex: 1;
 }
-
 
 .destaque-texto h2 {
     margin-bottom: 12px;
@@ -161,18 +144,15 @@ main {
     color: #0d4670;
 }
 
-
 .secao {
     padding: 45px 0;
 }
-
 
 .secao h2 {
     color: #0d4670;
 
     margin-bottom: 20px;
 }
-
 
 .cards {
     display: flex;
@@ -181,7 +161,6 @@ main {
 
     gap: 20px;
 }
-
 
 .card {
     background-color: white;
@@ -197,7 +176,6 @@ main {
         rgba(0, 0, 0, 0.10);
 }
 
-
 .card img {
     width: 100%;
 
@@ -208,13 +186,11 @@ main {
     border-radius: 9px;
 }
 
-
 .card h3 {
     color: #0d4670;
 
     margin: 10px 0 6px;
 }
-
 
 .info {
     background-color: #dcecf5;
@@ -226,7 +202,6 @@ main {
     margin-top: 25px;
 }
 
-
 footer {
     background-color: #071522;
 
@@ -236,7 +211,6 @@ footer {
 
     margin-top: 35px;
 }
-
 
 footer a {
     color: #39d0ff;
@@ -256,13 +230,11 @@ footer a {
     display: inline-block;
 }
 
-
 footer a:hover {
     color: #071522;
 
     background-color: #39d0ff;
 }
-
 
 @media (max-width: 800px) {
 
@@ -272,26 +244,21 @@ footer a:hover {
         gap: 15px;
     }
 
-
     nav a {
         margin: 3px;
     }
-
 
     .hero h1 {
         font-size: 32px;
     }
 
-
     .destaque-conteudo {
         flex-direction: column;
     }
 
-
     .destaque img {
         width: 100%;
     }
-
 
     .card {
         width: 100%;
